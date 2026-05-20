@@ -1,0 +1,17 @@
+{
+  "name": "nexa-pay",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*", "services/*", "packages/*", "contracts/*"],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@turbo/pack": "latest",
+    "pnpm": "^8.0.0"
+  }
+}
